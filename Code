@@ -1,0 +1,19 @@
+/Recursion
+//Usual way
+function factorialize(num) {
+/* 0! = 1 */
+ if (num === 0){
+  num =1;
+ }
+ for (let i = num -1; i>0; i--){
+  num *= i;
+ }
+  return num;
+}
+//recursion
+function factorial(n){
+ if (num === 0){
+  num =1;
+ }
+ return num * factorial(n - 1);
+}
